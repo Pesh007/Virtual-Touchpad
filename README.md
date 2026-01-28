@@ -27,7 +27,7 @@ A working webcam is required.
 
 Run the main script:
 
-python virtualKeyboard.py
+python virtualTouchpad.py
 
 
 At the moment, if the video preview window is disabled, the application can only be stopped from the terminal.
@@ -42,4 +42,4 @@ Future work includes reducing CPU usage, improving gesture recognition reliabili
 
 # Notes
 
-This project is experimental and intended primarily for learning and prototyping. Performance and behavior may vary depending on hardware and environmental conditions.
+This project is experimental and intended primarily for learning and prototyping. Performance and behavior may vary depending on hardware and environmental conditions. mouseControls.dll is build with dllmain.cpp with Visual Studio
