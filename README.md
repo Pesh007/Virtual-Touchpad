@@ -27,7 +27,7 @@ A working webcam is required.
 
 Run the main script:
 
-python main.py
+python virtualKeyboard.py
 
 
 At the moment, if the video preview window is disabled, the application can only be stopped from the terminal.
