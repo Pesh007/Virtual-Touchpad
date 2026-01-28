@@ -8,7 +8,7 @@ from mediapipe.tasks import python
 from OneEuroFilter import OneEuroFilter
 
 import pyautogui
-from controls import move_mouse, left_click, horizontal_scroll, vertical_scroll
+from mouseControls import move_mouse, left_click, horizontal_scroll, vertical_scroll
 
 
 
@@ -238,4 +238,5 @@ print("Average frame time:", (end_time - start_time) / frame_counter)
 
 cap.release()
 cv2.destroyAllWindows()
+
 
