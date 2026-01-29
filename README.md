@@ -13,15 +13,15 @@ The cursor is controlled by moving your hand while extending only the index fing
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/21e51217-69c8-452f-9056-d13c59c301fc" width="250"><br>
+      <img src="https://github.com/user-attachments/assets/21e51217-69c8-452f-9056-d13c59c301fc" width="250" height="530" ><br>
       <sub>Cursor control with one finger</sub>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/88e41846-f4bb-437a-a709-cf0b7514007a" width="250"><br>
+      <img src="https://github.com/user-attachments/assets/88e41846-f4bb-437a-a709-cf0b7514007a" width="250" height="530"><br>
       <sub>Click gesture using thumb and middle finger</sub>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/e7aba198-030b-473e-bd96-67b7a7a49cc3" width="250"><br>
+      <img src="https://github.com/user-attachments/assets/e7aba198-030b-473e-bd96-67b7a7a49cc3" width="250" height="530"><br>
       <sub>Scrolling with two fingers</sub>
     </td>
   </tr>
