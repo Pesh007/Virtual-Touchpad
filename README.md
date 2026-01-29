@@ -37,9 +37,9 @@ You must download the hand_landmarker.task model from the following page and pla
 https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker
 
 All required Python packages can be installed using:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 A working webcam is required.
 
