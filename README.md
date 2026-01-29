@@ -13,7 +13,7 @@ The cursor is controlled by moving your hand while extending only the index fing
 <table align="center">
   <tr>
     <td align="center">
-      <img src="image1.png](https://github.com/user-attachments/assets/21e51217-69c8-452f-9056-d13c59c301fc" width="250"><br>
+      <img src="https://github.com/user-attachments/assets/21e51217-69c8-452f-9056-d13c59c301fc" width="250"><br>
       <sub>Cursor control with one finger</sub>
     </td>
     <td align="center">
