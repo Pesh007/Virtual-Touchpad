@@ -141,6 +141,9 @@ with HandLandmarker.create_from_options(hand_options) as landmarker:
                     click_frame_counter += 1
                     frames_without_scrolling += 1
 
+                    index_tip = landmarks[8]
+                    index_base = landmarks[5]
+                    finger_extension_distance = abs(index_base.y - index_tip.y)                    
 
                     if is_middle_thumb_pinch(
                         landmarks,
@@ -153,8 +156,7 @@ with HandLandmarker.create_from_options(hand_options) as landmarker:
                         click_frame_counter = 0
                         left_click()
 
-                    index_tip = landmarks[8]
-                    index_base = landmarks[5]
+
 
                     x = int(index_tip.x * w)
                     y = int(index_tip.y * h)
@@ -163,7 +165,7 @@ with HandLandmarker.create_from_options(hand_options) as landmarker:
                         first_time_pointing = False
                         gesture_start_frame_pos = [x, y]
 
-                    finger_extension_distance = abs(index_base.y - index_tip.y)
+                    
 
                     cursor_x = (
                         screen_width // 2
@@ -228,8 +230,10 @@ with HandLandmarker.create_from_options(hand_options) as landmarker:
                     if frames_without_scrolling > 8:
                         first_time_scrolling = True
 
-        # GUI intentionally disabled for performance
-
+        # GUI intentionally disabled for performance (uncomment for enabling it)
+        #cv2.imshow("Hand Detection", frame)
+        #if cv2.waitKey(1) & 0xFF == 27:        
+        #    break
 
 
 
