@@ -8,9 +8,11 @@ The system uses MediaPipe Hand Landmarker for real-time hand tracking and interp
 
 The cursor is controlled by moving your hand while extending only the index finger. A left mouse click is triggered by pinching the tips of the thumb and the middle finger. Scrolling is performed by extending both the index and middle fingers and moving the hand vertically or horizontally.
 
-<img width="353" height="517" alt="image" src="https://github.com/user-attachments/assets/844ec6cb-3c52-4b31-a170-ab06b7ceb0de" />
-<img width="368" height="600" alt="image" src="https://github.com/user-attachments/assets/5de777e8-e634-48a1-9efd-d5333fed11d3" />
-<img width="410" height="614" alt="image" src="https://github.com/user-attachments/assets/95678c1d-3195-42e4-8f5b-11c8fe0d79ee" />
+<p align="center">
+  <img width="45%" height="45%" alt="Moving the mouse" src="https://github.com/user-attachments/assets/21e51217-69c8-452f-9056-d13c59c301fc" />
+  <img width="45%" height="45%" alt="Clickin" src="https://github.com/user-attachments/assets/88e41846-f4bb-437a-a709-cf0b7514007a" />
+
+</p>
 
 
 The application runs locally and processes the camera feed in real time.
